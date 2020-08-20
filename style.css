@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:black;
+   
+
+}
+.tm-container
+{
+    max-width: 1200px;
+    margin:auto;
+
+}
+.tm-header{
+    background:black;
+}
+.logo{
+    float: left;
+    padding:20px;
+}
+.tm-header::after{
+    content: " ";
+    clear:both;
+    display: block;
+    visibility: none;
+}
+
+.tm-nav{
+    float: right;
+}
+.tm-nav ul li{
+    display: inline-block;
+}
+.tm-nav ul li a{
+    padding:10px 20px;
+    text-decoration:none;
+    line-height: 60px;
+    color:red
+}
+/*----------SECOND PARRT-------------*/
+.tm-middle{
+    text-align:center;
+    margin:80px;
+    padding:20px;
+}
+/*-----------THIRD PART-----------
+.tm-bio{
+    Display:flex;
+    position: relative;
+    background:lightgray;
+    width:fit-content;
+    height: 400px;
+}
+.tm-photo{
+    float: left;
+    margin:30px;
+    padding:20px;
+}
+.tm-txt{
+    margin:20px;
+    padding:30px;
+    
+    
+}-------*/
+.tm-bio{
+    background:lightgray;
+    width:auto;
+    height:400px;
+}
+.tm-photo{
+    float: left;
+    margin:30px;
+    padding:20px;
+}
+.tm-txt{
+    font: italic bold 18px/30px Georgia, serif;
+    margin:20px;
+    padding:10px;
+}
+
+
+.tm-hp{
+    color:white;
+    text-align:center;
+    margin:30px;
+}
+.text{
+    color:white;
+    text-align: center;
+    margin:10px;
+    
+}
+.tm-hper{
+    color:black;
+    text-align:center;
+    margin-top:50px;
+    padding:10px;
+}
+
+.tm-port1{
+    background:white;
+    width:300px;
+    height:200px;
+    margin-left:60px;
+    border-radius:20%;
+}
+
+.tm-ht{
+    color:black;
+    text-align:center;
+    margin-top:50px;
+    padding:10px;
+}
+   
+
+.tm-port2{
+    background:white;
+    width:300px;
+    height:200px;
+    margin-left:200px;
+    border-radius:20%;
+}
+.tm-tt{
+    color:black;
+    text-align:center;
+    margin-top:40px;
+    margin-left:5px;
+    padding:10px;
+}
+
+.tm-port3{
+    background:white;
+    width:300px;
+    height:200px;
+    margin-left:200px;
+    margin-top:40px;
+    border-radius:20%;
+}
+
+.tm-porto ul li{
+    display: inline-block;
+}
+/*-----------SKILLS--------
+.tm-skill{
+    position: relative;
+    text-align: center;
+    border:1px solid white ;
+    background: rgb(236, 232, 225);
+    background-size:cover ;
+     width: 105%; 
+    height:400px;
+    margin-left: -2.2%;
+    
+}
+
+.tm-prog{
+    float: left;
+    margin:10px;
+    padding:10px;
+}
+.tm-lang1{
+
+    margin-top: 20px;
+    padding:10px;
+}
+
+/*----------------SKILLS------------*/
+.tm-skill{
+    background:lightgray;
+    width:auto;
+    height:200px;
+}
+.tm-prog{
+    margin-left:40px;
+    margin-top:20px;
+    padding:20px;
+}
+.tm-lang{
+    float: right;
+    margin-top:-80px;
+    margin-right:220px;
+    padding:20px;
+}
+.tn-con{
+    text-align:center;
+}
+.tm-lang progress {
+    background-color:black;
+    border: 10px;
+    height: 18px;
+    border-radius: 9px;
+  }
+
+
+
+
+
+
+
+
+
+
